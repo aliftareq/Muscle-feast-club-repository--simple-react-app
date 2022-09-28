@@ -1,0 +1,83 @@
+[
+    {
+        "id": "01",
+        "category": "Cardio Exercise",
+        "name": "Squat jumps",
+        "trainer": "Jemi-siddons",
+        "forAge": "20-25",
+        "time": 30,
+        "img": "https://media.istockphoto.com/photos/beautiful-woman-doing-box-squats-at-the-gym-picture-id692883044?k=20&m=692883044&s=612x612&w=0&h=GweX28YCviDs8w0pxwL6N5wAE7ny3tfkKz_bmelNJbQ="
+    },
+    {
+        "id": "02",
+        "category": "Cardio Exercise",
+        "name": "Jump rope",
+        "trainer": "James",
+        "forAge": "15-35",
+        "time": 40,
+        "img": "https://st2.depositphotos.com/1637787/8805/i/450/depositphotos_88058662-stock-photo-male-athlete-skipping-rope.jpg"
+    },
+    {
+        "id": "03",
+        "category": "Cardio Exercise",
+        "name": "Trunk rotation",
+        "trainer": "Shelby",
+        "forAge": "10-65",
+        "time": 30,
+        "img": "https://www.muscleandfitness.com/wp-content/uploads/2018/10/800-trunkrotation2.jpg?w=800&h=731&crop=1&quality=86&strip=all"
+    },
+    {
+        "id": "04",
+        "category": "Mascular Exercise",
+        "name": "Dumbbell rows",
+        "trainer": "Jemi-siddons",
+        "forAge": "20-45",
+        "time": 20,
+        "img": "https://www.muscleandfitness.com/wp-content/uploads/2015/12/The-Rock-Dumbbell-Row.jpg?w=1200&h=630&crop=1&quality=80&strip=all"
+    },
+    {
+        "id": "05",
+        "category": "Mascular Exercise",
+        "name": "Push-up",
+        "trainer": "Shelby",
+        "forAge": "20-35",
+        "time": 30,
+        "img": "https://blog.nasm.org/hubfs/power-pushups.jpg"
+    },
+    {
+        "id": "06",
+        "category": "Mascular Exercise",
+        "name": "Deadlifting",
+        "trainer": "Saimonds",
+        "forAge": "20-35",
+        "time": 15,
+        "img": "https://www.hussle.com/blog/wp-content/uploads/2020/05/Deadlift-body-change-1080x675.png"
+    },
+    {
+        "id": "07",
+        "category": "Flexibility Exercise",
+        "name": "Seat Stretch",
+        "trainer": "Shelby",
+        "forAge": "15-35",
+        "time": 25,
+        "img": "https://acewebcontent.azureedge.net/exercise-library/large/215-3.jpg"
+    },
+    {
+        "id": "08",
+        "category": "Flexibility Exercise",
+        "name": "CrossOver",
+        "trainer": "Jemi-siddons",
+        "forAge": "20-35",
+        "time": 20,
+        "img": "https://garagegympower.com/wp-content/uploads/2017/11/bodybuilder-workout-with-cable-crossover-machine.jpg"
+    },
+    {
+        "id": "09",
+        "category": "Flexibility Exercise",
+        "name": "Knees to Chest.",
+        "trainer": "Jonathon",
+        "forAge": "20-45",
+        "time": 35,
+        "img": "https://media.istockphoto.com/photos/young-attractive-woman-in-knees-to-chest-pose-studio-background-picture-id840157180?k=20&m=840157180&s=612x612&w=0&h=Ir2MDElN0qOqVKU_cpCEJ58qkzqpIGHgBi5qs__YSEM="
+    }
+]

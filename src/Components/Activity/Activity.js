@@ -2,7 +2,8 @@ import React from 'react';
 import './Activity.css'
 
 const Activity = (props) => {
-    const { img, name, trainer, time } = props.activity
+    const { activity, clickHandler } = props
+    const { id, img, name, trainer, time } = activity
     return (
         <div className='activity'>
             <img src={img} alt="" />
@@ -12,7 +13,7 @@ const Activity = (props) => {
                     <p>Trainer : <strong>{trainer}</strong></p>
                     <p>Time : {time}</p>
                 </div>
-                <button>Add To List</button>
+                <button onClick={() => clickHandler(id)}>Add To List</button>
             </div>
         </div>
     );

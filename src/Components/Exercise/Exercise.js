@@ -1,7 +1,13 @@
 import React from 'react';
 import './Exercise.css'
 
-const Exercise = () => {
+const Exercise = (props) => {
+    const { cart } = props
+    let exerciseTime = 0;
+    let breakTime = 0;
+    for (const item of cart) {
+        exerciseTime = exerciseTime + item.time
+    }
     return (
         <div className='exercise'>
             <div className='add-break'>
@@ -18,11 +24,11 @@ const Exercise = () => {
                 <h4>Exercise Details</h4>
                 <div className='Exercise-boxes'>
                     <p><strong>Exercise Time</strong></p>
-                    <p>200 seconds</p>
+                    <p>{exerciseTime} seconds</p>
                 </div>
                 <div className='Exercise-boxes'>
                     <p><strong>Break Time</strong></p>
-                    <p>15 seconds</p>
+                    <p>{breakTime} seconds</p>
                 </div>
             </div>
         </div>

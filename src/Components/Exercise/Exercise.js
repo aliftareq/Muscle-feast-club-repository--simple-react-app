@@ -1,4 +1,6 @@
 import React from 'react';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import './Exercise.css'
 
 const Exercise = (props) => {
@@ -10,6 +12,12 @@ const Exercise = (props) => {
     }
     for (const item of cart) {
         exerciseTime = exerciseTime + item.time
+    }
+    // toast showing function
+    const showtoast = () => {
+        toast.success(' Activity successfully Compleated!!!', {
+            position: "top-center",
+        })
     }
     return (
         <div className='exercise'>
@@ -34,6 +42,10 @@ const Exercise = (props) => {
                     <p>{breakTime} seconds</p>
                 </div>
             </div>
+            <div className='Activity-button'>
+                <button onClick={showtoast}>Activity Compleated</button>
+            </div>
+            <ToastContainer></ToastContainer>
         </div>
     );
 };

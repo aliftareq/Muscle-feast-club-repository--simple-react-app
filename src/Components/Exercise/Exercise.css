@@ -1,3 +1,7 @@
+.exercise {
+    padding-bottom: 5%;
+}
+
 .add-break {
     padding: 2%;
     margin-top: 10%;
@@ -34,6 +38,21 @@
     margin: 5% 3%;
 }
 
+.Activity-button {
+    margin-top: 15%;
+}
+
+.Activity-button button {
+    background-color: palegreen;
+    padding: 3% 10%;
+    border: none;
+    border-radius: 5%;
+}
+
+.Activity-button button:hover {
+    background-color: springgreen;
+}
+
 @media only screen and (max-width : 700px) {
     .add-break {
         padding: 2%;
@@ -42,5 +61,9 @@
 
     .exercise-details {
         margin-top: 3%;
+    }
+
+    .Activity-button {
+        margin-top: 5%;
     }
 }

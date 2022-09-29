@@ -4,8 +4,10 @@ import './Exercise.css'
 const Exercise = (props) => {
     const { cart, clickHandler2, time } = props
     let exerciseTime = 0;
-    let breakTime = time;
-
+    let breakTime = 0;
+    if (time) {
+        breakTime = time;
+    }
     for (const item of cart) {
         exerciseTime = exerciseTime + item.time
     }

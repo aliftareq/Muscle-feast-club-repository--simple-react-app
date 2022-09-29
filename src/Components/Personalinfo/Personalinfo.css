@@ -1,0 +1,18 @@
+.person-info {
+    padding: 3%;
+}
+
+.person-info img {
+    width: 25%;
+    border-radius: 5%;
+}
+
+.shape-info {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 3%;
+    border-radius: 3%;
+    background-color: aquamarine;
+    padding: 2%;
+}

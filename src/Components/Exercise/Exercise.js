@@ -15,7 +15,7 @@ const Exercise = (props) => {
     }
     // toast showing function
     const showtoast = () => {
-        toast.success(' Activity successfully Compleated!!!', {
+        toast.success(' Activities successfully Compleated!!!', {
             position: "top-center",
         })
     }

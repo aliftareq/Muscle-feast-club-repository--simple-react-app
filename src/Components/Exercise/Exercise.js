@@ -2,9 +2,10 @@ import React from 'react';
 import './Exercise.css'
 
 const Exercise = (props) => {
-    const { cart } = props
+    const { cart, clickHandler2, time } = props
     let exerciseTime = 0;
-    let breakTime = 0;
+    let breakTime = time;
+
     for (const item of cart) {
         exerciseTime = exerciseTime + item.time
     }
@@ -13,11 +14,11 @@ const Exercise = (props) => {
             <div className='add-break'>
                 <h4>Add A break</h4>
                 <div className='buttons'>
-                    <button>10s</button>
-                    <button>20s</button>
-                    <button>30s</button>
-                    <button>40s</button>
-                    <button>60s</button>
+                    <button onClick={() => clickHandler2(10)}>10s</button>
+                    <button onClick={() => clickHandler2(20)}>20s</button>
+                    <button onClick={() => clickHandler2(30)}>30s</button>
+                    <button onClick={() => clickHandler2(40)}>40s</button>
+                    <button onClick={() => clickHandler2(60)}>60s</button>
                 </div>
             </div>
             <div className='exercise-details'>

@@ -2,12 +2,12 @@ import React, { useEffect, useState } from 'react';
 import Activity from '../Activity/Activity';
 import Exercise from '../Exercise/Exercise';
 import Personalinfo from '../Personalinfo/Personalinfo';
-import Question from '../Questions/Question';
 import './Body.css'
 
 const Body = () => {
     const [activities, setactivities] = useState([])
     const [cart, setcart] = useState([])
+    let [time, setTime] = useState(0)
     useEffect(() => {
         fetch('activity.json')
             .then(res => res.json())
@@ -15,14 +15,15 @@ const Body = () => {
     }, [])
 
     const addTolist = (id) => {
-        console.log('button clicked', id)
         const selectedItems = activities.find(activity => activity.id === id)
         console.log(selectedItems)
         const newCart = [...cart, selectedItems]
         setcart(newCart)
     }
-    console.log(cart)
-    //console.log(activities)
+    const addBreakTime = (value) => {
+        time = value;
+        setTime(time)
+    }
     return (
         <div className='body'>
             <div className="activities">
@@ -37,7 +38,9 @@ const Body = () => {
             <div className="info">
                 <Personalinfo></Personalinfo>
                 <Exercise
-                    cart={cart}>
+                    cart={cart}
+                    clickHandler2={addBreakTime}
+                    time={time}>
                 </Exercise>
             </div>
         </div>

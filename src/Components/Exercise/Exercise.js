@@ -35,11 +35,11 @@ const Exercise = (props) => {
                 <h4>Exercise Details</h4>
                 <div className='Exercise-boxes'>
                     <p><strong>Exercise Time</strong></p>
-                    <p>{exerciseTime} seconds</p>
+                    <p>{exerciseTime} minute</p>
                 </div>
                 <div className='Exercise-boxes'>
                     <p><strong>Break Time</strong></p>
-                    <p>{breakTime} seconds</p>
+                    <p>{breakTime} second</p>
                 </div>
             </div>
             <div className='Activity-button'>
